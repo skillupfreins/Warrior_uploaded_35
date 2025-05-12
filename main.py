@@ -80,8 +80,6 @@ image_urls = [
 
 "https://i.postimg.cc/WbHn4BYp/b4564d9f6bb025ac35380036a863f9e2-1.jpg",
 
-"https://i.postimg.cc/0ysTVJxJ/b8fcce8ef0cdf6afa1f54c5b0b3c460d.jpg",
-
 "https://i.postimg.cc/y6cbg84Q/6db63a81db79f02fd95c127a7ef4e06d.jpg",
     # Add more image URLs as needed
 ]
