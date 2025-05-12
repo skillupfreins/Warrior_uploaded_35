@@ -250,8 +250,12 @@ async def restart_handler(_, m):
 async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
-        "𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : 𝐖𝐀𝐑𝐑𝐈𝐎𝐑 𝐁𝐎𝐓"
-    )
+    "👋 𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫!\n\n"
+    "🤖 I am a <b>Text Downloader Bot</b>\n\n"
+    "📥 I can extract <b>Videos</b> & <b>PDFs</b> from your <b>Text File</b> and upload them to Telegram!\n\n"
+    "🧾 For instructions, use the command: <b>/help</b>\n\n"
+    "👨‍💻 𝐌𝐚𝐝𝐞 𝐁𝐲: <a href=\"https://t.me/staystrongbros\">𝐖𝐀𝐑𝐑𝐈𝐎𝐑 𝐁𝐎𝐓</a>"
+)
     await bot.send_photo(
         chat_id=message.chat.id,
         photo=random_image_url,
