@@ -251,10 +251,13 @@ async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
     "👋 𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫!\n\n"
-    "🤖 I am a <b>Text Downloader Bot</b>\n\n"
-    "📥 I can extract <b>Videos</b> & <b>PDFs</b> from your <b>Text File</b> and upload them to Telegram!\n\n"
-    "🧾 For instructions, use the command: <b>/help</b>\n\n"
-    "👨‍💻 𝐌𝐚𝐝𝐞 𝐁𝐲: <a href=\"https://t.me/staystrongbros\">𝐖𝐀𝐑𝐑𝐈𝐎𝐑 𝐁𝐎𝐓</a>"
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+    "🤖 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n"
+    "📥 𝐈 𝐜𝐚𝐧 𝐞𝐱𝐭𝐫𝐚𝐜𝐭 𝐕𝐢𝐝𝐞𝐨𝐬 & 𝐏𝐃𝐅𝐬 𝐟𝐫𝐨𝐦 𝐲𝐨𝐮𝐫 𝐓𝐞𝐱𝐭 𝐅𝐢𝐥𝐞\n"
+    "𝐚𝐧𝐝 𝐮𝐩𝐥𝐨𝐚𝐝 𝐭𝐡𝐞𝐦 𝐝𝐢𝐫𝐞𝐜𝐭𝐥𝐲 𝐭𝐨 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦!\n\n"
+    "🧾 𝐅𝐨𝐫 𝐢𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐢𝐨𝐧𝐬, 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: /help\n\n"
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+    "👨‍💻 𝐌𝐚𝐝𝐞 𝐁𝐲: [𝐖𝐀𝐑𝐑𝐈𝐎𝐑 𝐁𝐎𝐓](https://t.me/staystrongbros)\n"
 )
     await bot.send_photo(
         chat_id=message.chat.id,
